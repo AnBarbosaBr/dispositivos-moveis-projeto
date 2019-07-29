@@ -34,7 +34,11 @@ class MessagesAdapter : RecyclerView.Adapter<MessagesAdapter.MessagesViewHolder>
              viewHolder.receiverText.visibility = View.INVISIBLE
              viewHolder.receiverProfileImage.visibility = View.INVISIBLE;
              viewHolder.senderText.text = message.content
-
+         } else {
+             viewHolder.senderText.visibility = View.INVISIBLE
+             viewHolder.receiverText.text = message.content
+             var imageURI = null; //TODO: change profile image
+             viewHolder.receiverProfileImage.setImageURI(imageURI)
          }
 
     }
