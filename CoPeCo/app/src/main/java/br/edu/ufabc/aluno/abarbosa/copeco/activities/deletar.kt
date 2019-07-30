@@ -1,6 +1,6 @@
 /*
 
-*/
+
 
 package br.edu.ufabc.aluno.abarbosa.copeco.activities
 
@@ -57,4 +57,4 @@ class MainActivity : AppCompatActivity() {
     }
 
 }
-/*
+ */
